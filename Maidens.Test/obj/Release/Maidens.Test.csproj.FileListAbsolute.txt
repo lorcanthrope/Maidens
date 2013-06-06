@@ -1,0 +1,9 @@
+E:\Projects\Maidens\Maidens.Test\bin\Release\Maidens.Test.dll
+E:\Projects\Maidens\Maidens.Test\bin\Release\Maidens.Test.pdb
+E:\Projects\Maidens\Maidens.Test\bin\Release\Maidens.Helpers.dll
+E:\Projects\Maidens\Maidens.Test\bin\Release\Maidens.Models.dll
+E:\Projects\Maidens\Maidens.Test\bin\Release\Maidens.Helpers.pdb
+E:\Projects\Maidens\Maidens.Test\bin\Release\Maidens.Models.pdb
+E:\Projects\Maidens\Maidens.Test\obj\Release\ResolveAssemblyReference.cache
+E:\Projects\Maidens\Maidens.Test\obj\Release\Maidens.Test.dll
+E:\Projects\Maidens\Maidens.Test\obj\Release\Maidens.Test.pdb

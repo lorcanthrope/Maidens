@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7da8376c-9bdd-4efb-9db2-51b8f7160f58" name="Lorcan@MIDKEMIA 2013-03-21 00:42:17" runUser="Midkemia\Lorcan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="eb9e4072-1e72-41cb-85a6-5f45a78cb497">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="E:\Projects\Maidens\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Lorcan_MIDKEMIA 2013-03-21 00_42_17">
+      <DeploymentItem filename="E:\Projects\Maidens\Maidens.Models\bin\Release\Maidens.Models.dll" />
+      <DeploymentItem filename="E:\Projects\Maidens\Maidens.Helpers\bin\Debug\Maidens.Helpers.dll" />
+      <DeploymentItem filename="E:\Projects\Maidens\Maidens.Models\bin\Debug\Maidens.Models.dll" />
+      <DeploymentItem filename="E:\Projects\Maidens\Maidens.Helpers\bin\Release\Maidens.Helpers.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-21T00:42:17.7507872+00:00" queuing="2013-03-21T00:42:27.9253692+00:00" start="2013-03-21T00:42:28.2143857+00:00" finish="2013-03-21T00:42:35.6348101+00:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="DisplayTest" storage="e:\projects\maidens\maidens.test\bin\debug\maidens.test.dll" id="a44fd078-a307-f07c-ed20-7e5d05e3b91e">
+      <Execution id="3b33d674-6a03-4389-b60d-3b0fd193cc13" />
+      <TestMethod codeBase="E:/Projects/Maidens/Maidens.Test/bin/Debug/Maidens.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Maidens.Test.HtmlTest, Maidens.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DisplayTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a44fd078-a307-f07c-ed20-7e5d05e3b91e" executionId="3b33d674-6a03-4389-b60d-3b0fd193cc13" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3b33d674-6a03-4389-b60d-3b0fd193cc13" testId="a44fd078-a307-f07c-ed20-7e5d05e3b91e" testName="DisplayTest" computerName="MIDKEMIA" duration="00:00:05.5166191" startTime="2013-03-21T00:42:28.4153972+00:00" endTime="2013-03-21T00:42:35.5778069+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b33d674-6a03-4389-b60d-3b0fd193cc13">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Maidens.Test.HtmlTest.DisplayTest threw exception: 
+System.ArgumentException: At least one object must implement IComparable.</Message>
+          <StackTrace>    at System.Collections.Comparer.Compare(Object a, Object b)
+   at System.Collections.Generic.ObjectComparer`1.Compare(T x, T y)
+   at System.Linq.EnumerableSorter`2.CompareKeys(Int32 index1, Int32 index2)
+   at System.Linq.EnumerableSorter`1.QuickSort(Int32[] map, Int32 left, Int32 right)
+   at System.Linq.EnumerableSorter`1.Sort(TElement[] elements, Int32 count)
+   at System.Linq.OrderedEnumerable`1.&lt;GetEnumerator&gt;d__0.MoveNext()
+   at Maidens.Helpers.HtmlHelper.CreateDisplay(Tournament tournament, DataContext context, Guid roundId) in E:\Projects\Maidens\Maidens.Helpers\HtmlHelper.cs:line 50
+   at Maidens.Test.HtmlTest.DisplayTest() in E:\Projects\Maidens\Maidens.Test\HtmlTest.cs:line 23
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

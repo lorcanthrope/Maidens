@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="970930fa-2670-413b-9dff-6c3138d6a127" name="Lorcan@MIDKEMIA 2013-03-20 21:47:24" runUser="Midkemia\Lorcan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="eb9e4072-1e72-41cb-85a6-5f45a78cb497">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="E:\Projects\Maidens\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Lorcan_MIDKEMIA 2013-03-20 21_47_24">
+      <DeploymentItem filename="E:\Projects\Maidens\Maidens.Models\bin\Debug\Maidens.Models.dll" />
+      <DeploymentItem filename="E:\Projects\Maidens\Maidens.Helpers\bin\Debug\Maidens.Helpers.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-20T21:47:24.2675943+00:00" queuing="2013-03-20T21:47:24.2995962+00:00" start="2013-03-20T21:47:24.3035964+00:00" finish="2013-03-20T21:47:24.8646285+00:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TabTest" storage="e:\projects\maidens\maidens.test\bin\debug\maidens.test.dll" id="1b02f37b-fb7b-60ba-172d-3f63cef6ad49">
+      <Execution id="521cf14b-bffb-4152-9d37-07f5b569c91d" />
+      <TestMethod codeBase="E:/Projects/Maidens/Maidens.Test/bin/Debug/Maidens.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Maidens.Test.MicrosoftTest, Maidens.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TabTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1b02f37b-fb7b-60ba-172d-3f63cef6ad49" executionId="521cf14b-bffb-4152-9d37-07f5b569c91d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="521cf14b-bffb-4152-9d37-07f5b569c91d" testId="1b02f37b-fb7b-60ba-172d-3f63cef6ad49" testName="TabTest" computerName="MIDKEMIA" duration="00:00:00.3934003" startTime="2013-03-20T21:47:24.3055965+00:00" endTime="2013-03-20T21:47:24.8536279+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="521cf14b-bffb-4152-9d37-07f5b569c91d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

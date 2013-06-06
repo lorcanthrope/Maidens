@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DB7A4F99-18CD-41D2-A387-FE5BC62D6E6E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Maidens.Controls</RootNamespace>
+    <AssemblyName>Maidens.Controls</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActionType.cs" />
+    <Compile Include="EventsHelper.cs" />
+    <Compile Include="InstitutionsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InstitutionsControl.Designer.cs">
+      <DependentUpon>InstitutionsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JudgesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JudgesControl.Designer.cs">
+      <DependentUpon>JudgesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResultsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ResultsControl.Designer.cs">
+      <DependentUpon>ResultsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RoundsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RoundsControl.Designer.cs">
+      <DependentUpon>RoundsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpeakersControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SpeakersControl.Designer.cs">
+      <DependentUpon>SpeakersControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StandingsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StandingsControl.Designer.cs">
+      <DependentUpon>StandingsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VenuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VenuesControl.Designer.cs">
+      <DependentUpon>VenuesControl.cs</DependentUpon>
+    </Compile>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Maidens.Helpers\Maidens.Helpers.csproj">
+      <Project>{75CF0D7F-4568-4FC1-A151-2E019DF08315}</Project>
+      <Name>Maidens.Helpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Maidens.Models\Maidens.Models.csproj">
+      <Project>{4A650F26-4485-4F5B-8369-E9BE2AD94620}</Project>
+      <Name>Maidens.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="InstitutionsControl.resx">
+      <DependentUpon>InstitutionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JudgesControl.resx">
+      <DependentUpon>JudgesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResultsControl.resx">
+      <DependentUpon>ResultsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoundsControl.resx">
+      <DependentUpon>RoundsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpeakersControl.resx">
+      <DependentUpon>SpeakersControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StandingsControl.resx">
+      <DependentUpon>StandingsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VenuesControl.resx">
+      <DependentUpon>VenuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

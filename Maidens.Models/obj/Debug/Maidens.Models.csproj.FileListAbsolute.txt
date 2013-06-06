@@ -1,0 +1,5 @@
+E:\Projects\Maidens\Maidens.Models\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\Maidens\Maidens.Models\bin\Debug\Maidens.Models.dll
+E:\Projects\Maidens\Maidens.Models\bin\Debug\Maidens.Models.pdb
+E:\Projects\Maidens\Maidens.Models\obj\Debug\Maidens.Models.dll
+E:\Projects\Maidens\Maidens.Models\obj\Debug\Maidens.Models.pdb

@@ -1,0 +1,23 @@
+﻿body
+{
+}
+
+div.header {
+margin: 10px auto;
+width: 800px;
+font-family: Tahoma;
+font-size: 80px;
+font-variant: small-caps;
+}
+
+div.blocker {
+    padding: 400px;
+}
+
+td.display-cell-entry{
+font-family: Tahoma;
+}
+
+td.selected {
+    background-color: #FFFF00;
+}

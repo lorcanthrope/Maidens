@@ -1,0 +1,7 @@
+E:\Projects\Maidens\Maidens.Helpers\bin\Release\Maidens.Helpers.dll
+E:\Projects\Maidens\Maidens.Helpers\bin\Release\Maidens.Helpers.pdb
+E:\Projects\Maidens\Maidens.Helpers\bin\Release\Maidens.Models.dll
+E:\Projects\Maidens\Maidens.Helpers\bin\Release\Maidens.Models.pdb
+E:\Projects\Maidens\Maidens.Helpers\obj\Release\ResolveAssemblyReference.cache
+E:\Projects\Maidens\Maidens.Helpers\obj\Release\Maidens.Helpers.dll
+E:\Projects\Maidens\Maidens.Helpers\obj\Release\Maidens.Helpers.pdb
